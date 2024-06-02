@@ -11,7 +11,7 @@ function App() {
       <ambientLight intensity={2} />
       <OrbitControls />
       <Suspense fallback={null}>
-        <Earth />
+        <Earth enableZoom={false}/>
       </Suspense>
       <Environment preset='sunset' />
     </Canvas>
